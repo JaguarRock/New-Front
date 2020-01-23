@@ -6,7 +6,8 @@ import About from "./component/About";
 import AskBoard from "./component/Board/AskBoard";
 import Discuss from "./component/Board/DiscussBoard";
 import HotIssue from "./component/Board/HotIssueBoard";
-import WriteBoard from './component/Board/WriteAskBoard';
+import WriteAskBoard from './component/Board/WriteAskBoard';
+import EditAskBoard from "./component/Board/EditAskBoard";
 import './App.css';
 
 
@@ -21,7 +22,8 @@ class App extends Component {
           <Route path="/discuss" component={Discuss} />
           <Route path="/askboard" component={AskBoard} />
           <Route path="/hotissue" component={HotIssue} />
-          <Route path="/write" component={WriteBoard}/>
+          <Route path="/writeaskboards" component={WriteAskBoard}/>
+          <Route path="/editaskboards" component={EditAskBoard}/>
         </Switch>
       </Router>
     );

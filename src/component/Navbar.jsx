@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
-import styled from "styled-components";
 import jaguar from "../images/jaguar.jpg";
 class Navbar extends Component {
     render() {
